@@ -1,0 +1,51 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <!-- Name of the app -->
+        <title>Camera Mobile Website</title>
+
+        <!-- Link to main style sheet -->
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <!-- Main content of the HTML -->
+        <main id="camera">
+
+            <!-- Camera view -->
+            <!-- canvas: Area for drawing graphics on a web page -->
+            <canvas id="camera-view"></canvas>
+            
+            <!-- Camera device -->
+            <!-- Play the video streaming in "camera-view" -->
+            <video id="camera-device" autoplay playsinline></video>
+            
+            <!-- Photo display -->
+            <img alt="" id="photo-display">
+
+            <!-- Front camera button -->
+            <button id="front-camera-button">Front Camera</button>
+
+            <!-- Take photo button -->
+            <button id="take-photo-button">Take Photo</button>
+
+        </main>
+
+        <!-- Reference to the JavaScript file -->
+        <script src="app.js"></script> 
+
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-76690105-1', 'auto');
+                ga('send', 'pageview');
+                /* jshint ignore:end */
+                ga('send', 'pageview');
+                /* jshint ignore:end */
+        </script>
+    </body>
+</html>
